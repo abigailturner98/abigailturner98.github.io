@@ -1,0 +1,90 @@
+.color1 {
+    background: #CEE5F2;
+}
+
+.color2 {
+    background: #7A7978;
+}
+
+.color3 {
+    background: #7BAFD4;
+}
+
+.color4 {
+    background: #102E4A;
+}
+
+.color5 {
+    background: #8DE4FF;
+}
+
+h1 {
+    font-family: 'Abril Fatface', cursive; 
+    font-size: 2em;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+}
+
+.bodytext {
+    text-indent: 50px;
+}
+
+h2, h3 {
+    font-family: 'Neuton', serif;
+}
+
+h2 {
+    padding: 20px;
+}
+
+nav {
+    font-family: 'Neuton', serif;
+    font-size: 1.3em;
+}
+
+#sidebar {
+    border: solid 10px;
+    padding: 20px;
+}
+
+#main {
+    padding: 20px;
+    border: solid 10px;
+    padding: 20px;
+}
+
+.fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 50px;
+    height: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 10px 2px 2px 2px;
+}
+
+.fa:hover {
+    opacity: 0.6;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.socialmedia {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+}
