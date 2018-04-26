@@ -1,4 +1,7 @@
 *{box-sizing: border box;}
+body {
+    background: #7BAFD4;
+}
 
 .color1 {
     background: #CEE5F2;
@@ -27,18 +30,22 @@ h1 {
 
 p {
     font-family: 'Roboto', sans-serif;
+    font-size: 0.9em;
 }
 
 .bodytext {
     text-indent: 50px;
 }
 
-h2, h3, h4 {
+h3 {
     font-family: 'Neuton', serif;
+    font-size: 1.2em;
 }
 
 h2 {
+    font-family: 'Neuton', serif;
     padding: 20px;
+    font-size: 1.5em;
 }
 
 nav {
@@ -47,14 +54,26 @@ nav {
 }
 
 #sidebar {
-    border: solid 5px;
     padding: 20px;
+    border: 1px solid black;
 }
 
 #main {
     padding: 20px;
-    border: solid 5px;
-    padding: 20px;
+    border-top: none;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+}
+
+@media (min-width: 576px) {
+    #main {
+        padding: 20px;
+        border-top: 1px solid black;
+        border-right: 1px solid black;
+        border-bottom: 1px solid black;
+        border-left: none;
+    }
 }
 
 .fa {
@@ -64,7 +83,7 @@ nav {
     height: 50px;
   text-align: center;
   text-decoration: none;
-  margin: 10px 2px 2px 2px;
+  margin: 15px 15px;
 }
 
 .fa:hover {
@@ -74,19 +93,24 @@ nav {
 .fa-facebook {
   background: #3B5998;
   color: white;
+    margin-right: 0.40em;
 }
 
 .fa-instagram {
   background: #125688;
   color: white;
+    margin-left: 0.40em;
 }
 
 .socialmedia {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
     display: flex;
     justify-content: center;
+    margin-top: 1%;
+}
+
+.logo {
+    margin: 10px;
 }
 
 * {
